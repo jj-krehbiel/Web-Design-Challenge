@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Temperature vs. Lattitude</title>
+  <title>Wind Speed vs. Lattitude</title>
 
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="style.css">
@@ -46,47 +46,37 @@
       <!-- set the row and column -->
       <div class = "row">
         <div class="col-md-8">
-          <!-- header line -->
-          <h1 class="text-center">Max Temperature vs. Lattituted</h1>
-          <hr>
-          <!-- main content -->
-          <img src="../Visualizations/temp_lat.png" 
+        <!-- header line -->
+        <h1 class="text-center">Wind Speed vs. Lattituted</h1>
+        <hr>
+        <!-- main content -->
+        <img src="../Visualizations/wnd_lat.png" 
                 align="left" width="500px" length="500px"> 
                 <span>
                 <br>
-                <p class="box">Common sense says that as you get closer to the equator, the temperature will generally increase. As you can see from this graph, that common sense position is supported by the data. You can see the temperature peaking around lattitude 0 (the equator) and decreasing the closer you get to the poles.</p>
-
-                <p class="box">Although the linear regression model would have you believe that hotter temperatures are positively correlated with the further south you are, I think this is just a result of my random sample not being representative. As you can see from the scatter points in the plot, I have data on cities as far north as 80 degrees lattitude, but my Southern data points only go as far south as -60 degrees. </p>
-
-                <p class="box">You can see, however, by just looking at the plots that the pattern of getting colder as you go farther south from the equator does start to mirror the pattern when you go further north. I suspect that if I got a more geographically representative sample, you would see the full continuation of this pattern.</p>
-
+                <p class="box">As I expected, the data does not support a correlation between wind speed and lattitude. Looking at the scatter plot, you can see the points are spread somewhat randomly accross the plot, and the linear regression line is nearly flat, suggesting no correlation in either direction.</p>
         </div>
 
         <!-- Second Column -->
         <div class = "col-md-4">
-          <!-- header line -->
-          <h2 class="text-center">Visualizations</h2>
-          <hr>
-          <!-- Thumbnails with links -->
-      
-          <a href="vis_temp.html"><img src="../Visualizations/temp_lat.png" width="150px" length="150px" role="button">   </a> 
+            <!-- header line -->
+            <h2 class="text-center">Visualizations</h2>
+            <hr>
+            <!-- Thumbnails with links -->
+        
+            <a href="vis_temp.html"><img src="../Visualizations/temp_lat.png" width="150px" length="150px" role="button">   </a> 
 
             <a href="vis_wnd.html"><img src="../Visualizations/wnd_lat.png" width="150px" length="150px" role="button"> </a>   
 
             <a href="vis_hum.html"><img src="../Visualizations/hum_lat.png" width="150px" length="150px" role="button">   </a> 
 
-            <a href="vis_cld.html"><img src="../Visualizations/cld_lat.png" width="150px" length="150px" role="button">   <a href="#"></a>
-        </div>   
+            <a href="vis_cld.html"><img src="../Visualizations/cld_lat.png" width="150px" length="150px" role="button">   <a href="#"></a> 
+          </div>   
+
       </div>
     </div>
-
-
-
-
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-
 </html>
