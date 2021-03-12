@@ -1,7 +1,18 @@
 .box {
-    padding: 20px;
+    /* padding: 20px; */
+    margin-top: 40px;
     color:rgb(109, 107, 107)
   }
+
+.visbox {
+  padding: 1000 px;
+  color:rgb(109, 107, 107;
+  background-color: blue;)
+}
+
+#more-padding {
+  padding: 2000 px
+}
   
 .margin-top-80 {
     margin-top: 80px;
