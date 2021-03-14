@@ -4,10 +4,15 @@
     color:rgb(109, 107, 107)
   }
 
+.box-2 {
+  color:rgb(109, 107, 107);
+  margin-bottom: 40px;
+}
+
 .visbox {
   padding: 1000 px;
-  color:rgb(109, 107, 107;
-  background-color: blue;)
+  color:rgb(109, 107, 107);
+  background-color: blue;
 }
 
 #more-padding {
